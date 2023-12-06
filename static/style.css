@@ -1,0 +1,116 @@
+:root {
+	/* --main-font: Roboto, Helvetica, Arial, sans-serif; */
+	--main-font: Roboto;
+	/* --secondary-font: "Nunito Sans"; */
+	--secondary-font: Roboto;
+	--mono-font: "Roboto Mono";
+}
+
+html {
+	font-family: var(--main-font);
+	line-height: 1.25;
+}
+
+p {
+	font-family: var(--secondary-font);
+}
+
+/* .navbar {
+	position: sticky;
+	top: 0;
+}
+
+.navbar li {
+	display: inline;
+	float: left;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+} */
+
+.navbar {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.project-card {
+	margin-bottom: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	outline: black solid 1px;
+}
+
+.group-name {
+	text-align: center;
+	/* font-weight: 600; */
+	padding: 2px;
+	/* padding-bottom: 0.75em; */
+}
+
+.project-name {
+	text-align: center;
+	font-weight: 600;
+	padding: 2px;
+	padding-bottom: 0.333em;
+}
+
+.project-summary {
+	padding-bottom: 1.15em;
+}
+
+.team-members {
+	padding-bottom: 0.75em;
+	font-style: italic;
+}
+
+.collage-image-container img {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 0.333em;
+}
+
+img {
+	max-height: 50vh;
+	max-width: 100%;
+}
+
+iframe {
+	max-height: 50vh;
+	max-width: 100%;
+}
+
+.collage-image-caption {
+	font-style: italic;
+	line-height: 1.15;
+	padding-bottom: 1.15em;
+}
+
+section {
+	padding-bottom: 4em;
+}
+
+.notdone {
+	color: red;
+	/* border: 5px red solid; */
+}
+
+.notdone iframe {
+	border:5px red solid;
+}
+
+.notdone img {
+	border:5px red solid;
+}
