@@ -62,6 +62,8 @@ p {
 
 .project-name {
 	text-align: center;
+	font-size: 1.33rem;
+	line-height: 1.66rem;
 	font-weight: 600;
 	padding: 2px;
 	padding-bottom: 0.333em;
@@ -76,15 +78,25 @@ p {
 	font-style: italic;
 }
 
-.collage-image-container img {
+/* .collage-image-container img {
 	height: 100%;
 	width: 100%;
 	padding-bottom: 0.333em;
+} */
+
+.collage-image-container {
+	/* margin-left: auto;
+	margin-right: auto;
+	display: block; */
 }
 
 img {
 	max-height: 50vh;
 	max-width: 100%;
+	/* height: auto;  */
+    width: auto; 
+	display:block;
+    margin:auto;
 }
 
 iframe {
