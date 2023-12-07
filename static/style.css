@@ -84,23 +84,16 @@ p {
 	padding-bottom: 0.333em;
 } */
 
-.collage-image-container {
-	/* margin-left: auto;
-	margin-right: auto;
-	display: block; */
-}
 
 img {
 	max-height: 50vh;
 	max-width: 100%;
 	/* height: auto;  */
     width: auto; 
-	display:block;
-    margin:auto;
 }
 
 iframe {
-	max-height: 50vh;
+	max-height: 66vh;
 	max-width: 100%;
 }
 
