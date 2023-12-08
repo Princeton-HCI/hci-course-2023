@@ -1,22 +1,36 @@
 :root {
 	/* --main-font: Roboto, Helvetica, Arial, sans-serif; */
-	--main-font: Roboto;
+	/* --main-font: Roboto; */
+	--main-font: 'EB Garamond', serif;
 	/* --secondary-font: "Nunito Sans"; */
-	--secondary-font: Roboto;
+	--secondary-font: Helvetica;
+	/* --secondary-font: 'EB Garamond', serif; */
+	--secondary-font-color: #727272;
 	--mono-font: "Roboto Mono";
 }
 
-html {
+body, html {
+	font-size: 18px;
 	font-family: var(--main-font);
 	line-height: 1.25;
+	scroll-margin-top: 200px;
+	/* scroll-snap-margin-top: 50px; */
 }
 
 .navbar {
-	background: #F5EFDF !important;
+	background: #939393 !important;
 }
 
+
 p {
-	font-family: var(--secondary-font);
+	font-family: var(--main-font) !important;
+}
+
+.end {
+	font-family: var(--main-font) !important;
+	font-style: italic;
+	padding-top: 2rem;
+	text-align: justify;
 }
 
 .article li p {
@@ -24,10 +38,23 @@ p {
 	line-height: 1rem;
 }
 
-h3 {
-	text-decoration: underline;
+h1 {
+	font-family: var(--main-font);
 	font-weight: 900 !important;
-	font-size: 1em !important;
+	font-size: 3.5rem !important;
+	padding-bottom: 1.15rem;
+}
+
+h2 {
+	font-family: var(--main-font);
+	font-weight: 900 !important;
+	font-size: 2.6666666667rem !important;
+	padding-bottom: 1.15rem;
+}
+
+h3 {
+	font-weight: 900 !important;
+	font-size: 2.16667rem !important;
 }
 
 .articlesubtitle p {
@@ -62,12 +89,12 @@ h3 {
 	font-family: 'EB Garamond', serif;
 	font-size: 1rem;
 	font-weight: 300;
-	width: 600px;
-	max-width: none;
+	max-width: 800px;
+	/* max-width: none; */
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 600px;
+    /* width: 600px; */
 }
 
 /* .navbar {
@@ -99,6 +126,7 @@ h3 {
 }
 
 .project-card {
+	font-family: 'EB Garamond', serif;
 	margin-bottom: 1.5em;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -115,9 +143,15 @@ h3 {
 	/* padding-bottom: 0.75em; */
 }
 
+.center {
+	padding-top: 1.15rem;
+	padding-bottom: 1.5rem;
+}
+
 .project-name {
 	text-align: center;
-	font-size: 1.33rem;
+
+	font-size: 1.66rem;
 	line-height: 1.66rem;
 	font-weight: 600;
 	padding: 2px;
@@ -126,24 +160,27 @@ h3 {
 
 .project-summary {
 	padding-bottom: 1.15em;
+	text-align: justify;
 }
 
 .team-members {
 	padding-bottom: 0.75em;
 	font-style: italic;
+	padding-top: 1.15rem;
 }
 
 .collage-image-container img {
 	/* height: 100%;
 	width: 100%;
 	padding-bottom: 0.333em; */
+	padding-bottom: 0.625rem;
 	margin: auto;
 	display: block;
 }
 
 
 img {
-	max-height: 50vh;
+	max-height: 70vh;
 	max-width: 100%;
 	/* height: auto;  */
     width: auto; 
@@ -152,16 +189,29 @@ img {
 iframe {
 	max-height: 66vh;
 	max-width: 100%;
+
+	margin: auto;
+	display: block;
 }
 
 .collage-image-caption {
-	font-style: italic;
-	line-height: 1.15;
-	padding-bottom: 1.15em;
+	width: 80%;
+	margin-left: auto;
+	font-family: var(--secondary-font) !important;
+	/* font-style: italic; */
+	color: var(--secondary-font-color) !important;
+	font-size: 0.8rem;
+	line-height: 1.2;
+	/* padding-bottom: 1.2rem; */
+	text-align: end;
+}
+
+.caption-citation {
+	font-size: 0.5rem;
 }
 
 section {
-	padding-top: 4em;
+	padding-top: 2rem;
 }
 
 .notdone {

@@ -30,7 +30,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 		  <ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link" href="#summaryreport">Report</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Report</a></li>
 			<li class="nav-item"><a class="nav-link" href="#summaryvideo">Video</a></li>
 			<!-- <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li> -->
 			<li class="nav-item"><a class="nav-link" href="#systemprojects">System Projects</a></li>
@@ -41,26 +41,28 @@
 	</nav>
 
     <div class="main-content container">
-    	<div id="home">
-			<h1>COS 436 Human-Computer Interaction</h1>
-			<h2>Final Projects</h2>
-			<h2>Fall 2023</h2>
-			<h2>Princeton University</h2>
-			<br>
-		</div>
 
-		<section id="summaryreport">
+
+		<section id="summaryreport"  style="margin-top:2rem;padding-top:0;">
 			<div class="article">
-				<h2 class="articletitle">HCI Projects of 2023: Presenting 16 Novel Systems and Studies</h2>
+				<div id="home">
+					<h1 style="text-align:center;line-height: 3rem;margin-bottom:0rem">COS 436 Human-Computer Interaction</h1>
+					<h5 style="text-align:center;margin:0;padding:0;">Princeton University</h5>
+					<h5 style="text-align:center;margin:0;padding:0;">Fall 2023</h5>
+					<h5 style="text-align:center;margin:0;padding:0;">HCI Final Projects</h5>
+					<br>
+				</div>
+				<div class="collage-image-container" style="padding-bottom: 1.15rem;">
+					<img alt="photo from Project Fair Round II." src="img/project-fair-round-ii.png">
+					<div style="margin:auto;" class="collage-image-caption">Photo from Project Fair Round II caption</div>
+				</div>
+				<h3 class="articletitle">Presenting 16 Novel Systems and Studies</h3>
 				<p class="articledata">December 7, 2023</p>
 				<p><span class="firstletter">O</span>n a sunny Thursday afternoon, the Friend Center atrium bustled with activity, students gathered around orange tables adorned with presentation slides and exciting projects. It’s November 30th, the day of the final Project Fair for the students enrolled in COS 436: Human-Computer Interaction.</p>
-				<div class="collage-image-container">
-					<img alt="photo from Project Fair Round II." src="img/project-fair-round-ii.png">
-					<div class="collage-image-caption">Photo from Project Fair Round II caption</div>
-				</div>
+
 				<p>The course, taught by Professors Andrés Monroy-Hernández and Parastoo Abtahi, offers a survey of the broad field of Human-Computer Interaction (HCI), with a focus on interactive and social computing. Over the semester, the students completed group projects that either implemented an interactive system or conducted a study on an HCI topic.</p>
-				<p>The 16 projects covered a wide variety of subfields within HCI, from exploring how people interact with AI such as  ChatGPT and Dall-E, to building systems to help with mental health or leveraging AR for improving education. Here is a summary of the HCI Projects of 2023:</p>
-				<ol>
+				<p style="margin-bottom: 0;">The 16 projects covered a wide variety of subfields within HCI, from exploring how people interact with AI such as  ChatGPT and Dall-E, to building systems to help with mental health or leveraging AR for improving education. Here is a summary of the HCI Projects of 2023:</p>
+				<!-- <ol>
 					<li>
 						<h3 class="articlesubtitle">How do conversational UIs compare to textual prompts for AI image generation? </h3>
 						<p class="articleauthor">Henry Knoll, Ava Crnkovic-Rubsamen, Mike Scornavacca, and Pierce Maloney</p>
@@ -81,7 +83,6 @@
 						<p class="articleauthor">Ariana Lujan, Joy Patterson, Divraj Singh, Alexis Wu</p>
 						<p>This group asked a wide range of educators on their views on the use of ChatGPT in CS education. They asked about problems including LLM hallucination, attribution of generated code, and the relation of LLMs to critical thinking skills. Educators surveyed were more likely than not to incorporate LLMs into course policies or within the classroom, but were often concerned about their long-term impacts.</p>
 					</li>
-					<!-- <span><li></li></span> -->
 					<li value="6">
 						<h3 class="articlesubtitle">Exploring the visuo-vibrotactile modality for real-time low-friction feedback in the classroom</h3>
 						<p class="articleauthor">Oleg Golev, Michelle Huang, Chanketya Nop, Kritin Vongthongsri</p>
@@ -142,9 +143,15 @@
 						<p class="articleauthor">Darren Alexis, Jakob Nogler, Ruyu Yan</p>
 						<p>This project focuses on remote collaboration in the context of 3-dimensional designs, as opposed to document collaboration (like Google Docs) or 2D design (such as Figma). The study followed 6 participants with experience in artistic design as they attempted to collaborate on coloring and adjusting a scanned model. The results show that despite some promising applications, the effectiveness of such a tool is limited by the interface and communication between participants.</p>
 					</li>
-				</ol>
+				</ol> -->
 
-				<div class="collage-image-container">
+				<div id="summaryvideo" class="notdone" style="padding-top:2rem;">
+					<h3>Summary Video</h3>
+					<div class="center"><iframe 
+						width="560" height="315" src="https://www.youtube.com/embed/1iimVd-2Fx8?si=CUDG2cRdDqQcRg9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+				</div>
+
+				<!-- <div class="collage-image-container" style="padding-bottom: 1.15rem;">
 				<p class="c12"><span
 					style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 296.00px; height: 385.26px;"><img
 						alt="" src="img/collage1.png"
@@ -155,23 +162,18 @@
 						style="width: 293.00px; height: 384.59px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
 						title=""></span></p>
 					<div class="collage-image-caption">A collage of images representing the group’s projects. Several images generated using Dall-E.</div>
-				</div>
+				</div> -->
 				<p>	These projects not only pushed the boundaries of HCI but also illuminated the dynamic interplay between humans and technology. From AI's influence on socialization to AR's role in robotics, these projects exemplify the diverse facets of HCI and its multidisciplinary nature. We hope you have been inspired to reflect on how you interact with technology in your day-to-day life, and how systems like these can transform the way you work, learn, or communicate.</p>
-				<p>As this year draws to a close, we are grateful to the students and professors of COS 436 for contributing and sharing these incredible projects. We look forward to the work of the next students of COS 436: Human-Computer Interaction.</p>
-
-
+				<p>As this year draws to a close, we are grateful to the students and professors of COS 436 for contributing and sharing these incredible projects. We look forward to the work of the next students of COS 436: Human-Computer Interaction. </p>
+				<!-- <p>Please enjoy viewing our students' projects!</p> -->
 				
 			</div>
-		</section>
-
-		<section id="summaryvideo" class="notdone">
-			<h2>Summary Video</h2>
-			<div class="center"><iframe 
-				width="560" height="315" src="https://www.youtube.com/embed/1iimVd-2Fx8?si=CUDG2cRdDqQcRg9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 		</section>
 	
 		<div id="projects">
 			<section id="systemprojects">
+			<hr>
+			</br>
 			<h2>System Implementation Projects</h2>
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
@@ -268,7 +270,10 @@
 				</div>
 			</section>
 
+
 			<section id="studyprojects">
+			<hr>
+			</br>
 			<h2>Study Projects</h2>
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
@@ -362,9 +367,14 @@
 						<div class="team-members">Darren Alexis, Jakob Nogler, Ruyu Yan</div>
 						</div>
 					</div>	
-					<p>NOTE: ChatGPT was used to provide a brief summary of project results to best capture each project's essence in only a few sentences. The information collected from these responses was then used as part of an overall summary of the entire project, self-created from project fair reports, proposals, and presentations.</p>
+
+					
 				</div>
 			</section>
+		</br>
+		</br>
+		<hr>
+			<p class="end">NOTE: ChatGPT was used to provide a brief summary of project results to best capture each project's essence in only a few sentences. The information collected from these responses was then used as part of an overall summary of the entire project, self-created from project fair reports, proposals, and presentations.</p>
 		</div>
 
     </div>
