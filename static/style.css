@@ -6,7 +6,7 @@
 	--secondary-font: Helvetica;
 	/* --secondary-font: 'EB Garamond', serif; */
 	--secondary-font-color: #727272;
-	--mono-font: "Roboto Mono";
+	/* --mono-font: "Roboto Mono"; */
 }
 
 body, html {
@@ -14,13 +14,11 @@ body, html {
 	font-family: var(--main-font);
 	line-height: 1.25;
 	scroll-margin-top: 200px;
-	/* scroll-snap-margin-top: 50px; */
 }
 
 .navbar {
 	background: #939393 !important;
 }
-
 
 p {
 	font-family: var(--main-font) !important;
@@ -77,9 +75,6 @@ h3 {
 	font-weight: 900;	
 }
 
-/* .articledate {
-} */
-
 .articletitle {
 	font-size: 2.166rem;
 	font-weight: 900;
@@ -90,28 +85,10 @@ h3 {
 	font-size: 1rem;
 	font-weight: 300;
 	max-width: 800px;
-	/* max-width: none; */
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    /* width: 600px; */
 }
-
-/* .navbar {
-	position: sticky;
-	top: 0;
-}
-
-.navbar li {
-	display: inline;
-	float: left;
-}
-
-.navbar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-} */
 
 .navbar {
 	padding-left: 10px;
@@ -138,9 +115,7 @@ h3 {
 
 .group-name {
 	text-align: center;
-	/* font-weight: 600; */
 	padding: 2px;
-	/* padding-bottom: 0.75em; */
 }
 
 .center {
@@ -170,9 +145,6 @@ h3 {
 }
 
 .collage-image-container img {
-	/* height: 100%;
-	width: 100%;
-	padding-bottom: 0.333em; */
 	padding-bottom: 0.625rem;
 	margin: auto;
 	display: block;
@@ -182,7 +154,6 @@ h3 {
 img {
 	max-height: 70vh;
 	max-width: 100%;
-	/* height: auto;  */
     width: auto; 
 }
 
@@ -198,11 +169,9 @@ iframe {
 	width: 80%;
 	margin-left: auto;
 	font-family: var(--secondary-font) !important;
-	/* font-style: italic; */
 	color: var(--secondary-font-color) !important;
 	font-size: 0.8rem;
 	line-height: 1.2;
-	/* padding-bottom: 1.2rem; */
 	text-align: end;
 }
 
@@ -216,7 +185,6 @@ section {
 
 .notdone {
 	color: red;
-	/* border: 5px red solid; */
 }
 
 .notdone iframe {
