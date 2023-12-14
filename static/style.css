@@ -1,12 +1,9 @@
+/* Root elements */
+
 :root {
-	/* --main-font: Roboto, Helvetica, Arial, sans-serif; */
-	/* --main-font: Roboto; */
 	--main-font: 'EB Garamond', serif;
-	/* --secondary-font: "Nunito Sans"; */
-	--secondary-font: Helvetica;
-	/* --secondary-font: 'EB Garamond', serif; */
+	--secondary-font: Helvetica, sans-serif;
 	--secondary-font-color: #727272;
-	/* --mono-font: "Roboto Mono"; */
 }
 
 body, html {
@@ -16,24 +13,11 @@ body, html {
 	scroll-margin-top: 200px;
 }
 
-.navbar {
-	background: #939393 !important;
-}
+/******************************************************************************/
+/* Base element selectors */
 
 p {
 	font-family: var(--main-font) !important;
-}
-
-.end {
-	font-family: var(--main-font) !important;
-	font-style: italic;
-	padding-top: 2rem;
-	text-align: justify;
-}
-
-.article li p {
-	margin: 0.5rem;
-	line-height: 1rem;
 }
 
 h1 {
@@ -55,29 +39,38 @@ h3 {
 	font-size: 2.16667rem !important;
 }
 
-.articlesubtitle p {
-	font-weight: 900 !important;
+img {
+	max-height: 70vh;
+	max-width: 100%;
+    width: auto; 
 }
+
+iframe {
+	max-height: 66vh;
+	max-width: 100%;
+
+	margin: auto;
+	display: block;
+}
+
+section {
+	padding-top: 2rem;
+}
+
+/******************************************************************************/
+/* Article-related class selectors */
 
 .articleauthor {
 	font-style: italic;
 }
 
-.article p {
-	font-family: 'EB Garamond', serif;
-	font-size: 1rem;
-	font-weight: 300;
-	text-align: justify;
-}
-
-.firstletter {
-	font-size: 2rem;
-	font-weight: 900;	
-}
-
 .articletitle {
 	font-size: 2.166rem;
 	font-weight: 900;
+}
+
+.articlesubtitle p {
+	font-weight: 900 !important;
 }
 
 .article {
@@ -90,9 +83,37 @@ h3 {
     position: relative;
 }
 
+.article p {
+	font-family: 'EB Garamond', serif;
+	font-size: 1rem;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.article li p {
+	margin: 0.5rem;
+	line-height: 1rem;
+}
+
+.firstletter {
+	font-size: 2rem;
+	font-weight: 900;	
+}
+
+/******************************************************************************/
+/* Navbar, main text content, & footer classes */
+
 .navbar {
+	background: #939393 !important;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.footer {
+	font-family: var(--main-font) !important;
+	font-style: italic;
+	padding-top: 2rem;
+	text-align: justify;
 }
 
 .main-content {
@@ -125,7 +146,6 @@ h3 {
 
 .project-name {
 	text-align: center;
-
 	font-size: 1.66rem;
 	line-height: 1.66rem;
 	font-weight: 600;
@@ -144,23 +164,11 @@ h3 {
 	padding-top: 1.15rem;
 }
 
+/******************************************************************************/
+/* Image-related classes */
+
 .collage-image-container img {
 	padding-bottom: 0.625rem;
-	margin: auto;
-	display: block;
-}
-
-
-img {
-	max-height: 70vh;
-	max-width: 100%;
-    width: auto; 
-}
-
-iframe {
-	max-height: 66vh;
-	max-width: 100%;
-
 	margin: auto;
 	display: block;
 }
@@ -177,20 +185,4 @@ iframe {
 
 .caption-citation {
 	font-size: 0.5rem;
-}
-
-section {
-	padding-top: 2rem;
-}
-
-.notdone {
-	color: red;
-}
-
-.notdone iframe {
-	border:5px red solid;
-}
-
-.notdone img {
-	border:5px red solid;
 }
